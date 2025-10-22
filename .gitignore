@@ -1,0 +1,18 @@
+# AI and Development Files
+.cursor/
+.cursorrules
+
+# Sync Scripts (internal tooling)
+sync-content.sh
+
+# Development Files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp

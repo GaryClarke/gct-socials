@@ -261,13 +261,9 @@ posted: [YYYY-MM-DD]  # Optional: date when actually posted
 ### ID Management System
 Simple sequential numbering system:
 
-**Current highest ID:** 4
-
-**Next available ID:** 5
-
 **When creating new content:**
+- Read current ID from `.cursor/system-state.yml`
 - Use the next sequential number
-- Update the "Current highest ID" when adding new content
 - **AUTOMATICALLY increment the ID in `.cursor/system-state.yml`**
 - **AUTOMATICALLY update `.cursor/system-state.yml`**
 - No category restrictions - just increment from the last number
@@ -289,13 +285,7 @@ Simple sequential numbering system:
 ```
 Find next available ID
 ```
-This will scan existing IDs and suggest the next number.
-
-**Example:**
-```
-Find next available ID
-```
-Returns: "Next available ID: 2"
+This will read from `.cursor/system-state.yml` and suggest the next number.
 
 **Example Timothy Blog Post Template:**
 ```

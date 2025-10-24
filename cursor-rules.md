@@ -106,7 +106,28 @@ Rewrite this [platform] post in [X] different ways:
 Rewrite this Twitter post in 3 ways: as a tip, as a question hook, and as a bold statement. Keep the Go handler concept but vary the approach.
 ```
 
-### 4. Content Refresh Strategies
+### 4. Post Update Workflow
+After posting content and updating status:
+
+**Automatic Git Workflow:**
+1. **Update status** - Use `posted [ID] [date]` command
+2. **System automatically handles:**
+   - `git add .`
+   - `git commit -m "Update Post ID [X] status to posted ([date])"`
+   - `git push` (if remote exists)
+
+**Manual Process:**
+1. **Post content** (LinkedIn + Twitter with graphics)
+2. **Update system** - Tell system: `posted [ID] [date]`
+3. **System commits and pushes** changes automatically
+
+**Example:**
+```
+Jacko: posted 2 031125
+System: Updates status, commits, and pushes changes
+```
+
+### 5. Content Refresh Strategies
 To breathe new life into existing content using proven engagement techniques:
 
 ```
@@ -372,12 +393,19 @@ posted 1 281025
 ```
 - Post ID 1 was posted on 28th Oct 2025
 - Updates status to "posted" and adds posted date
+- **Automatically commits and pushes changes to git**
 
 ```
 posted 4 291025
 ```
 - Post ID 4 was posted on 29th Oct 2025
 - Updates status to "posted" and adds posted date
+- **Automatically commits and pushes changes to git**
+
+**Complete Workflow:**
+1. Post content (LinkedIn + Twitter)
+2. Use `posted [ID] [date]` command
+3. System automatically updates status, commits, and pushes changes
 
 ### Quick Reference Commands
 

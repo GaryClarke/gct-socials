@@ -127,6 +127,32 @@ After posting content and updating status:
 - **Upload to LinkedIn** - Graphics must be uploaded, not pasted
 - **Post with graphic** - Include the image in your LinkedIn post
 
+**Optimal Posting Times by Content Type:**
+- **Educational Content** (tutorials, guides, tips):
+  - LinkedIn: 8:00 AM GMT (professional morning audience)
+  - Twitter: 9:00 AM GMT (morning engagement peak)
+  - Facebook: 9:00 AM GMT (morning social check)
+
+- **Course/Product Announcements**:
+  - LinkedIn: 8:00 AM GMT (professional audience)
+  - Twitter: 1:00 PM GMT (lunch break engagement)
+  - Facebook: 7:00 PM GMT (evening social time)
+
+- **Competition/Giveaway Posts**:
+  - Twitter: 8:00 PM GMT (evening engagement)
+  - Facebook: 7:00 PM GMT (evening social time)
+  - LinkedIn: 5:00 PM GMT (end of work day)
+
+- **Blog Recommendations**:
+  - LinkedIn: 8:00 AM GMT (professional morning)
+  - Twitter: 9:00 AM GMT (morning engagement)
+  - Facebook: 1:00 PM GMT (lunch break)
+
+**Best Days by Platform:**
+- **LinkedIn:** Tuesday, Wednesday, Thursday
+- **Twitter:** Tuesday, Wednesday, Thursday
+- **Facebook:** Tuesday, Wednesday, Thursday, Friday
+
 **Example:**
 ```
 Jacko: posted 2 031125
@@ -382,11 +408,34 @@ Find all Timothy blog posts that are drafted
 1. **Find content to post** using the commands above
 2. **Check for graphics** - Look for `🖼️ GRAPHIC: filename.jpg (located in folder/path/)`
 3. **Find and upload graphic** - Search computer for filename, upload to LinkedIn
-4. **Copy the LinkedIn content** (top section, before the separator)
-5. **Post to LinkedIn** with the hashtags and graphic
-6. **Copy the Twitter content** (bottom section, after the separator)
-7. **Post to Twitter** 
-8. **Update the system** using the command below
+4. **Check optimal posting times** - System will suggest best times based on content type
+5. **Copy the LinkedIn content** (top section, before the separator)
+6. **Post to LinkedIn** with the hashtags and graphic at optimal time
+7. **Copy the Twitter content** (bottom section, after the separator)
+8. **Post to Twitter** at optimal time
+9. **Update the system** using the command below
+
+### Optimal Posting Times by Content Type
+
+**Educational Content** (tutorials, guides, tips):
+- LinkedIn: 8:00 AM GMT (professional morning audience)
+- Twitter: 9:00 AM GMT (morning engagement peak)
+- Facebook: 9:00 AM GMT (morning social check)
+
+**Course/Product Announcements**:
+- LinkedIn: 8:00 AM GMT (professional audience)
+- Twitter: 1:00 PM GMT (lunch break engagement)
+- Facebook: 7:00 PM GMT (evening social time)
+
+**Competition/Giveaway Posts**:
+- Twitter: 8:00 PM GMT (evening engagement)
+- Facebook: 7:00 PM GMT (evening social time)
+- LinkedIn: 5:00 PM GMT (end of work day)
+
+**Blog Recommendations**:
+- LinkedIn: 8:00 AM GMT (professional morning)
+- Twitter: 9:00 AM GMT (morning engagement)
+- Facebook: 1:00 PM GMT (lunch break)
 
 ### Updating After Posting
 

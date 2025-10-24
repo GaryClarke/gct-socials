@@ -4,9 +4,10 @@ platform: both
 category: php
 project: testing-laravel
 topic: release
-status: drafted
+status: posted
 tone: announcement
 image: testing-laravel-release-graphic.png
+posted: 2025-11-03
 ---
 
 Testing Laravel is now live.

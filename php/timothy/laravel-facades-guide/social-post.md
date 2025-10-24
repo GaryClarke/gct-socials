@@ -4,9 +4,10 @@ platform: both
 category: php
 project: timothy
 topic: laravel-facades-guide
-status: drafted
+status: posted
 tone: educational
 image: laravel-facades-graphic.png
+posted: 2025-10-28
 ---
 
 Timothy wrote another great post, this time explaining Laravel facades in a way that actually makes sense.

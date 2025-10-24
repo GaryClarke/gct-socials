@@ -121,6 +121,12 @@ After posting content and updating status:
 2. **Update system** - Tell system: `posted [ID] [date]`
 3. **System commits and pushes** changes automatically
 
+**Graphic Workflow:**
+- **Always check for graphics** - Posts will show: `🖼️ GRAPHIC: filename.jpg (located in folder/path/)`
+- **Find graphic on computer** - Search for the filename in the specified folder
+- **Upload to LinkedIn** - Graphics must be uploaded, not pasted
+- **Post with graphic** - Include the image in your LinkedIn post
+
 **Example:**
 ```
 Jacko: posted 2 031125
@@ -374,11 +380,13 @@ Find all Timothy blog posts that are drafted
 ### How to Post Content
 
 1. **Find content to post** using the commands above
-2. **Copy the LinkedIn content** (top section, before the separator)
-3. **Post to LinkedIn** with the hashtags
-4. **Copy the Twitter content** (bottom section, after the separator)
-5. **Post to Twitter** 
-6. **Update the system** using the command below
+2. **Check for graphics** - Look for `🖼️ GRAPHIC: filename.jpg (located in folder/path/)`
+3. **Find and upload graphic** - Search computer for filename, upload to LinkedIn
+4. **Copy the LinkedIn content** (top section, before the separator)
+5. **Post to LinkedIn** with the hashtags and graphic
+6. **Copy the Twitter content** (bottom section, after the separator)
+7. **Post to Twitter** 
+8. **Update the system** using the command below
 
 ### Updating After Posting
 

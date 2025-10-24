@@ -153,6 +153,19 @@ After posting content and updating status:
 - **Twitter:** Tuesday, Wednesday, Thursday
 - **Facebook:** Tuesday, Wednesday, Thursday, Friday
 
+**Analytics Tracking System:**
+- **Automatic analytics check** - System checks analytics 7 days after post date
+- **Tracked metrics:**
+  - LinkedIn: Views, likes, comments, shares, clicks
+  - Twitter: Impressions, likes, retweets, replies, clicks
+  - Facebook: Reach, engagement, clicks, shares
+- **Performance categories:**
+  - High performing: Top 25% of posts
+  - Medium performing: Middle 50% of posts
+  - Low performing: Bottom 25% of posts
+- **Analytics command:** `analytics [ID]` - Get performance data for specific post
+- **Weekly report:** `analytics report` - Get summary of all posts from last week
+
 **Example:**
 ```
 Jacko: posted 2 031125
@@ -297,6 +310,11 @@ tone: [tip/question/inspirational/list/educational]
 image: [relative path if applicable]
 only: [twitter/linkedin]  # Optional: specify single platform
 posted: [YYYY-MM-DD]  # Optional: date when actually posted
+analytics: [high/medium/low]  # Optional: performance rating after 7 days
+linkedin_views: [number]  # Optional: LinkedIn analytics
+linkedin_engagement: [number]  # Optional: LinkedIn engagement rate
+twitter_impressions: [number]  # Optional: Twitter analytics
+twitter_engagement: [number]  # Optional: Twitter engagement rate
 ---
 ```
 
@@ -481,6 +499,18 @@ Find posts about "microservices" that are drafted
 posted 2 301025
 ```
 
+**Check analytics:**
+```
+analytics 2
+```
+- Get performance data for Post ID 2 after 7 days
+
+**Weekly analytics report:**
+```
+analytics report
+```
+- Get summary of all posts from last week
+
 ### Jacko's Update Commands
 
 ```
@@ -560,6 +590,27 @@ Create a series of [X] posts about "[topic]" for [platform]:
 ```
 Update the status of these posts to "scheduled" and add today's date to last_posted
 ```
+
+### Analytics Management
+```
+analytics [ID]
+```
+- Get performance data for specific post after 7 days
+- Shows views, engagement, clicks, shares
+- Categorizes performance as high/medium/low
+
+```
+analytics report
+```
+- Get weekly summary of all posts
+- Shows top performing content
+- Identifies successful patterns
+
+```
+analytics update [ID] [views] [engagement]
+```
+- Manually update analytics for a post
+- Example: `analytics update 2 1500 8.5`
 
 ### Batch Operations
 ```

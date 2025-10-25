@@ -75,6 +75,16 @@ Since both Gary and Jacko are working on this repo, always pull the latest chang
 - Ensures both histories are preserved with merge commits
 - Makes it easy to see who changed what and when
 
+### Git Shortcuts
+
+Gary has these useful git aliases configured:
+- `gs` - `git status` (quick status check)
+- Add other common aliases as needed
+
+**Usage:**
+- Type `gs` anytime to quickly check if there are uncommitted changes
+- Helpful before starting new work to ensure you have a clean working tree
+
 ## 🎯 Core Workflows
 
 ### 1. Import Social Posts from Google Drive

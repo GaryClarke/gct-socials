@@ -30,6 +30,51 @@ Me: Adding all files and committing
 Me: Pushing to GitHub (if remote exists)
 ```
 
+### Git Workflow for Multiple Contributors
+
+**CRITICAL: Always pull before pushing**
+
+Since both Gary and Jacko are working on this repo, always pull the latest changes before pushing to prevent conflicts:
+
+1. **Before any push**: `git pull origin main` (or merge manually)
+2. **Merge strategy**: Use `--no-rebase` to create merge commits (preserves both histories)
+3. **After pulling**: Resolve any conflicts, then push
+
+**Updated workflow for Gary:**
+```
+1. Make changes
+2. Commit changes
+3. git pull origin main --no-rebase  # Pull Jacko's updates first
+4. Resolve any conflicts if needed
+5. git push origin main
+```
+
+**Updated workflow for Jacko:**
+```
+1. Make changes (post updates)
+2. Commit changes
+3. git pull origin main --no-rebase  # Pull Gary's updates first
+4. Resolve any conflicts if needed
+5. git push origin main
+```
+
+**For the `aac` command:**
+```
+1. Check for new post files
+2. If new posts found - Assign next available ID and update system state
+3. Add all files - git add .
+4. Commit with message - git commit -m "Add new content"
+5. Pull latest changes - git pull origin main --no-rebase
+6. Resolve any conflicts if needed
+7. Push to remote - git push origin main
+```
+
+**Why this matters:**
+- Prevents overwriting Jacko's post status updates
+- Avoids Gary's content conflicts with Jacko's cursor-rules updates
+- Ensures both histories are preserved with merge commits
+- Makes it easy to see who changed what and when
+
 ## 🎯 Core Workflows
 
 ### 1. Import Social Posts from Google Drive

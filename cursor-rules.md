@@ -519,6 +519,33 @@ posted 4 291025
 2. Use `posted [ID] [date]` command
 3. System automatically updates status, commits, and pushes changes
 
+### `new` Command - View Unposted Content
+
+Type `new` to see all content ready to post (status: drafted).
+
+**What it shows:**
+- **Post ID** - For use with the `posted` command
+- **Folder location** - Where to find the content file
+- **Topic** - What the post is about
+- **Graphic indicator** - Whether an image is available
+
+**Example output:**
+```
+📋 Unposted Content (5 posts):
+
+ID: 5 | go/go-bytes/go-types/ | Topic: types | 📷 graphic
+ID: 6 | go/byfga/6-json-response/ | Topic: json-responses | 📷 graphic  
+ID: 7 | go/byfga/7-response-structs/ | Topic: structs-json-tags | 📷 graphic
+```
+
+**Usage:**
+```
+Jacko: new
+System: [Shows list of all unposted content]
+```
+
+This gives Jacko a quick overview of what content is available to post.
+
 ### Quick Reference Commands
 
 **Find content to post:**

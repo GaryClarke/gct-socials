@@ -106,7 +106,60 @@ Rewrite this [platform] post in [X] different ways:
 Rewrite this Twitter post in 3 ways: as a tip, as a question hook, and as a bold statement. Keep the Go handler concept but vary the approach.
 ```
 
-### 4. Content Refresh Strategies
+### 4. Post Update Workflow
+After posting content and updating status:
+
+**Automatic Git Workflow:**
+1. **Update status** - Use `posted [ID] [date]` command
+2. **System automatically handles:**
+   - `git add .`
+   - `git commit -m "Update Post ID [X] status to posted ([date])"`
+   - `git push` (if remote exists)
+
+**Manual Process:**
+1. **Post content** (LinkedIn + Twitter with graphics)
+2. **Update system** - Tell system: `posted [ID] [date]`
+3. **System commits and pushes** changes automatically
+
+**Graphic Workflow:**
+- **Always check for graphics** - Posts will show: `🖼️ GRAPHIC: filename.jpg (located in folder/path/)`
+- **Find graphic on computer** - Search for the filename in the specified folder
+- **Upload to LinkedIn** - Graphics must be uploaded, not pasted
+- **Post with graphic** - Include the image in your LinkedIn post
+
+**Optimal Posting Times by Content Type:**
+- **Educational Content** (tutorials, guides, tips):
+  - LinkedIn: 8:00 AM GMT (professional morning audience)
+  - Twitter: 9:00 AM GMT (morning engagement peak)
+  - Facebook: 9:00 AM GMT (morning social check)
+
+- **Course/Product Announcements**:
+  - LinkedIn: 8:00 AM GMT (professional audience)
+  - Twitter: 1:00 PM GMT (lunch break engagement)
+  - Facebook: 7:00 PM GMT (evening social time)
+
+- **Competition/Giveaway Posts**:
+  - Twitter: 8:00 PM GMT (evening engagement)
+  - Facebook: 7:00 PM GMT (evening social time)
+  - LinkedIn: 5:00 PM GMT (end of work day)
+
+- **Blog Recommendations**:
+  - LinkedIn: 8:00 AM GMT (professional morning)
+  - Twitter: 9:00 AM GMT (morning engagement)
+  - Facebook: 1:00 PM GMT (lunch break)
+
+**Best Days by Platform:**
+- **LinkedIn:** Tuesday, Wednesday, Thursday
+- **Twitter:** Tuesday, Wednesday, Thursday
+- **Facebook:** Tuesday, Wednesday, Thursday, Friday
+
+**Example:**
+```
+Jacko: posted 2 031125
+System: Updates status, commits, and pushes changes
+```
+
+### 5. Content Refresh Strategies
 To breathe new life into existing content using proven engagement techniques:
 
 ```
@@ -353,11 +406,36 @@ Find all Timothy blog posts that are drafted
 ### How to Post Content
 
 1. **Find content to post** using the commands above
-2. **Copy the LinkedIn content** (top section, before the separator)
-3. **Post to LinkedIn** with the hashtags
-4. **Copy the Twitter content** (bottom section, after the separator)
-5. **Post to Twitter** 
-6. **Update the system** using the command below
+2. **Check for graphics** - Look for `🖼️ GRAPHIC: filename.jpg (located in folder/path/)`
+3. **Find and upload graphic** - Search computer for filename, upload to LinkedIn
+4. **Check optimal posting times** - System will suggest best times based on content type
+5. **Copy the LinkedIn content** (top section, before the separator)
+6. **Post to LinkedIn** with the hashtags and graphic at optimal time
+7. **Copy the Twitter content** (bottom section, after the separator)
+8. **Post to Twitter** at optimal time
+9. **Update the system** using the command below
+
+### Optimal Posting Times by Content Type
+
+**Educational Content** (tutorials, guides, tips):
+- LinkedIn: 8:00 AM GMT (professional morning audience)
+- Twitter: 9:00 AM GMT (morning engagement peak)
+- Facebook: 9:00 AM GMT (morning social check)
+
+**Course/Product Announcements**:
+- LinkedIn: 8:00 AM GMT (professional audience)
+- Twitter: 1:00 PM GMT (lunch break engagement)
+- Facebook: 7:00 PM GMT (evening social time)
+
+**Competition/Giveaway Posts**:
+- Twitter: 8:00 PM GMT (evening engagement)
+- Facebook: 7:00 PM GMT (evening social time)
+- LinkedIn: 5:00 PM GMT (end of work day)
+
+**Blog Recommendations**:
+- LinkedIn: 8:00 AM GMT (professional morning)
+- Twitter: 9:00 AM GMT (morning engagement)
+- Facebook: 1:00 PM GMT (lunch break)
 
 ### Updating After Posting
 
@@ -372,12 +450,19 @@ posted 1 281025
 ```
 - Post ID 1 was posted on 28th Oct 2025
 - Updates status to "posted" and adds posted date
+- **Automatically commits and pushes changes to git**
 
 ```
 posted 4 291025
 ```
 - Post ID 4 was posted on 29th Oct 2025
 - Updates status to "posted" and adds posted date
+- **Automatically commits and pushes changes to git**
+
+**Complete Workflow:**
+1. Post content (LinkedIn + Twitter)
+2. Use `posted [ID] [date]` command
+3. System automatically updates status, commits, and pushes changes
 
 ### Quick Reference Commands
 
@@ -609,3 +694,5 @@ Create a 5-part series explaining "[complex topic]":
 7. **Request content audits** regularly to maintain balance
 
 Remember: The more specific your prompts, the better the results!
+
+<!-- Test comment added by Jacko to verify GitHub push workflow -->

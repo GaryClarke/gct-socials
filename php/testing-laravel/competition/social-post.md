@@ -4,10 +4,11 @@ platform: twitter
 category: php
 project: testing-laravel
 topic: competition
-status: drafted
+status: scheduled
 tone: competition
 image: testing-laravel-graphic.png
 only: twitter
+scheduled: 2025-11-03
 ---
 
 I'm releasing Testing Laravel on Friday 31st Oct

@@ -4,9 +4,10 @@ platform: both
 category: php
 project: timothy
 topic: microservices-beginners-guide
-status: drafted
+status: posted
 tone: educational
 image: microservices-beginners-graphic.png
+posted: 2025-10-27
 ---
 
 Timothy wrote a really solid beginner's guide to microservices that's worth checking out.

@@ -13,6 +13,11 @@ sync-content.sh
 # Logs
 *.log
 
+# Auto-AAC Scripts (local automation)
+com.garyclarke.autoaac.plist
+setup-auto-aac.sh
+auto-aac.sh
+
 # Temporary Files
 *.tmp
 *.temp

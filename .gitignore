@@ -1,5 +1,6 @@
 # AI and Development Files
 .cursor/
+!/.cursor/system-state.yml
 .cursorrules
 
 # Sync Scripts (internal tooling)

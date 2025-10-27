@@ -4,6 +4,29 @@ This file establishes consistent commands, workflows, and patterns for working w
 
 ## 🚀 Gary's Special Commands
 
+### `new` Command (List Draft Posts)
+When using the `new` command, show all draft posts in this format:
+
+```
+✅ Post ID [X] - [Topic]
+📁 Location: [folder/path]
+📝 Status: drafted
+🎨 Graphic: [filename.png] (if available)
+```
+
+**Example:**
+```
+✅ Post ID 6 - JSON Responses
+📁 Location: go/byfga/6-json-response/
+📝 Status: drafted
+🎨 Graphic: GoJSONResponses.png
+
+✅ Post ID 7 - Response Structs
+📁 Location: go/byfga/7-response-structs/
+📝 Status: drafted
+🎨 Graphic: GoResponseStructs.png
+```
+
 ### `aac` Command (Add All and Commit)
 When Gary uses `aac`, perform these steps:
 

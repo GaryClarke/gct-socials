@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: constants
-status: drafted
+status: posted
 tone: educational
 image: GoConstants.png
 synced: false
+posted: 2025-11-04
 ---
 
 Go constants are fixed values that never change during runtime. Perfect for server configurations, limits, and other values that should stay consistent.

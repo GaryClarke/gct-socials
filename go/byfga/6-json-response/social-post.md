@@ -4,9 +4,10 @@ platform: both
 category: go
 project: first-go-app
 topic: json-responses
-status: drafted
+status: posted
 tone: educational
 image: GoJSONResponses.png
+posted: 2025-10-30
 ---
 
 Building APIs in Go? You'll want to send JSON responses instead of plain text.

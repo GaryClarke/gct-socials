@@ -4,9 +4,10 @@ platform: both
 category: go
 project: go-bytes
 topic: types
-status: drafted
+status: posted
 tone: educational
 image: 
+posted: 2025-10-29
 ---
 
 Go's type system catches bugs before your program runs and makes your code predictable.

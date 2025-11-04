@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: structs-json-tags
-status: drafted
+status: posted
 tone: educational
 image: GoResponseStructs.png
 synced: true
+posted: 2025-10-31
 ---
 
 Go structs give you type safety and better control over your JSON responses.

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: helper-functions-json
-status: drafted
+status: posted
 tone: educational
 image: GoWriteJSONhelper.png
 synced: false
+posted: 2025-11-05
 ---
 
 When building APIs in Go, you'll find yourself writing the same JSON response code over and over again.

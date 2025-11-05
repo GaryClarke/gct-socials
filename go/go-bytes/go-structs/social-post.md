@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: structs
-status: drafted
+status: posted
 tone: educational
-image: 
+image:
 synced: false
+posted: 2025-11-06
 ---
 
 Go structs let you group related values into a single custom type. Perfect for organizing data and representing real-world objects.

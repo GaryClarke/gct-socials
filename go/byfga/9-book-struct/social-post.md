@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: json-omitempty
-status: drafted
+status: posted
 tone: educational
 image: GoJSONTags.png
 synced: false
+posted: 2025-11-07
 ---
 
 Clean JSON responses start with proper struct tags. Use omitempty to skip fields with zero values, keeping your API responses lean and professional.

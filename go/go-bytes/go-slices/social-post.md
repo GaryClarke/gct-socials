@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: slices
-status: drafted
+status: posted
 tone: educational
 image: GoSlices.png
 synced: false
+posted: 2025-11-08
 ---
 
 Go slices are flexible lists that grow with your data. You can start small, add more as you go, and keep your code simple and readable. This is why slices are the default choice for collections in Go.

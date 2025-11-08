@@ -375,6 +375,7 @@ tone: [tip/question/inspirational/list/educational]
 image: [relative path if applicable]
 only: [twitter/linkedin]  # Optional: specify single platform
 posted: [YYYY-MM-DD]  # Optional: date when actually posted
+scheduling: [free-form text]  # Optional: scheduling context (e.g., "Video scheduled for November 13, 2025 at 9:00 AM on YouTube")
 ---
 ```
 
@@ -388,6 +389,12 @@ posted: [YYYY-MM-DD]  # Optional: date when actually posted
 - **After posting** - Add `posted: 2025-01-15` when content goes live
 - **Before posting** - Omit `posted` field (status will be "drafted" or "scheduled")
 - **Simple tracking** - Easy for Jacko to add the date when she posts content
+
+**When to use `scheduling` field:**
+- **Video/content releases** - Add scheduling info when related video/content has a scheduled release date
+- **Time-sensitive content** - Use when post timing should align with other content (course launches, blog posts, etc.)
+- **Planning context** - Helps Jacko understand when to schedule the social post relative to other content
+- **Free-form text** - Use natural language to describe the scheduling context (e.g., "Video scheduled for November 13, 2025 at 9:00 AM on YouTube")
 
 ### ID Management System
 Simple sequential numbering system:
@@ -551,6 +558,7 @@ Type `new` to see all content ready to post (status: drafted).
 - **Folder location** - Where to find the content file
 - **Topic** - What the post is about
 - **Graphic indicator** - Whether an image is available
+- **Scheduling info** - Shows scheduling context if available (when related content has scheduled release dates)
 
 **Example output:**
 ```
@@ -568,6 +576,53 @@ System: [Shows list of all unposted content]
 ```
 
 This gives Jacko a quick overview of what content is available to post.
+
+### `schedule` Command - View Posts with Scheduling Info
+
+Type `schedule` to see all posts that have scheduling information (posts with a `scheduling` field).
+
+**What it shows:**
+- **Post ID** - For use with the `posted` command
+- **Folder location** - Where to find the content file
+- **Topic** - What the post is about
+- **Scheduling info** - When related content is scheduled (video releases, course launches, etc.)
+- **Graphic indicator** - Whether an image is available
+
+**Example output:**
+```
+📅 Posts with Scheduling Info (2 posts):
+
+ID: 21 | go/go-bytes/switch-statements/ | Topic: switch-statements
+📅 Video scheduled for November 13, 2025 at 9:00 AM on YouTube
+📷 graphic
+
+ID: 22 | go/go-bytes/error-handling/ | Topic: error-handling
+📅 Course module launches November 20, 2025
+📷 graphic
+```
+
+**Usage:**
+```
+Jacko: schedule
+System: [Shows list of all posts with scheduling information]
+```
+
+**Workflow for Jacko:**
+1. Use `schedule` to see upcoming content with scheduling context
+2. Plan social posts to align with video/course releases
+3. Post social content a few hours before or after the scheduled content (depending on strategy)
+4. Use `posted [ID] [date]` after posting to update status
+
+**Enhanced `new` Command:**
+When using the `new` command, posts with scheduling info will be highlighted:
+```
+📋 Unposted Content (5 posts):
+
+ID: 5 | go/go-bytes/go-types/ | Topic: types | 📷 graphic
+ID: 21 | go/go-bytes/switch-statements/ | Topic: switch-statements | 📷 graphic
+   📅 Video scheduled for November 13, 2025 at 9:00 AM on YouTube
+ID: 6 | go/byfga/6-json-response/ | Topic: json-responses | 📷 graphic
+```
 
 ### Quick Reference Commands
 

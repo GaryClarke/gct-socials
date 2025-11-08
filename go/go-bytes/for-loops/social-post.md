@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: for-loops
-status: drafted
+status: posted
 tone: educational
 image: GoForLoops.png
 synced: false
+posted: 2025-11-09
 ---
 
 Go uses a single keyword for all loops: for. Whether you're counting, iterating over slices, or repeating an action, it's all the same keyword. This keeps things simple.

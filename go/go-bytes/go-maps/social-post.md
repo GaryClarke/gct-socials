@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: maps
-status: drafted
+status: posted
 tone: educational
 image: GoMaps.png
 synced: false
+posted: 2025-11-11
 ---
 
 Go maps store key-value pairs. You create them, read values by key, and add or update entries on the fly. They're flexible and fast for lookups, which makes them perfect for config, settings, or organizing small datasets.

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: defer keyword
-status: drafted
+status: posted
 tone: educational
 image: DeferInGo.png
 synced: false
+posted: 2025-11-10
 ---
 
 When you open resources in Go... files, databases, connections... you need to close them. But crashes happen. Code changes. You forget.

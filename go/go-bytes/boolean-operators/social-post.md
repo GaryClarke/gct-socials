@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: boolean-operators
-status: drafted
+status: posted
 tone: educational
 image: BooleanOperators.png
 synced: false
+posted: 2025-11-15
 ---
 
 Go boolean operators let you combine conditions. && checks if both are true, || checks if at least one is true. Parentheses control the order of evaluation, which is important when mixing operators. This example shows loggedIn AND (isStaff OR hasPermission) - the parentheses ensure the OR is evaluated first, then the result is combined with the AND.

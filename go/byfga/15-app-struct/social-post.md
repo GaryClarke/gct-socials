@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: app-struct-pattern
-status: drafted
+status: posted
 tone: educational
 image: GoAppStructs.png
 synced: false
+posted: 2025-11-16
 ---
 
 As your Go app grows, you'll need to share things like database connections and loggers across handlers. Instead of using global variables, group them in an App struct.

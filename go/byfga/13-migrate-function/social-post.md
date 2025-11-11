@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: database-migrations
-status: drafted
+status: posted
 tone: educational
 image: db.Exec().png
 synced: false
+posted: 2025-11-12
 ---
 
 Before you can query your database, you need tables. Before tables exist, you need to create them.

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: arrays
-status: drafted
+status: posted
 tone: educational
 image: GoArrays.png
 synced: false
+posted: 2025-11-14
 ---
 
 Go arrays are fixed-size collections of the same type. Perfect for when you know exactly how many items you need.

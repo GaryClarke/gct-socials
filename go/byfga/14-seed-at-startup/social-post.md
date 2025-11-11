@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: database-scan
-status: drafted
+status: posted
 tone: educational
 image: QueryRow.Scan.png
 synced: false
+posted: 2025-11-13
 ---
 
 When you query the database and get a result back, you need a way to read those values into your Go variables. That's where Scan comes in.

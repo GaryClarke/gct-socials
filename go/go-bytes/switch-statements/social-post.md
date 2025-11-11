@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: switch-statements
-status: drafted
+status: posted
 tone: educational
 image: GoSwitchStatements.png
 synced: false
+posted: 2025-11-13
 scheduling: Video scheduled for November 13, 2025 at 9:00 AM on YouTube
 ---
 

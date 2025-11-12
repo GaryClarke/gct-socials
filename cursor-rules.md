@@ -4,6 +4,10 @@ This file establishes consistent commands, workflows, and patterns for working w
 
 ## 🚀 Gary's Special Commands
 
+### `gh` Shorthand (Go Ahead)
+- When Gary says `gh`, treat it as explicit approval to proceed with the current plan or action.
+- Respond with a quick confirmation (if helpful) and move forward without additional clarification.
+
 ### `new` Command (List Draft Posts)
 When using the `new` command, show all draft posts in this format:
 

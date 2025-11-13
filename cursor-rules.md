@@ -8,6 +8,26 @@ This file establishes consistent commands, workflows, and patterns for working w
 - When Gary says `gh`, treat it as explicit approval to proceed with the current plan or action.
 - Respond with a quick confirmation (if helpful) and move forward without additional clarification.
 
+### `rechurn` Command (Revive Legacy PHP Posts)
+- Usage: `rechurn <lesson-name>`
+- Workflow:
+  1. Prompt Gary to pick the course folder for the lesson. Available options:
+     - `php/oop-php`
+     - `php/php-book`
+     - `php/testing-php`
+     - `php/timothy`
+     - `php/php-framework-pro`
+     - `php/php-api-pro`
+  2. Create the lesson folder inside the chosen course folder (if it doesn’t exist).
+  3. Gary pastes the legacy content into the folder (usually as provided or noted).
+  4. Convert the pasted content into a `social-post.md` with current front‑matter standards and tone.
+     - Remove or rewrite outdated references (e.g., “upcoming launch December 13th”).
+     - Remove inline links; place them in a comment section if still relevant.
+     - Update tone to match current guidelines and remove prohibited formatting (e.g., em dashes).
+  5. If Gary later runs `sm img` in that folder:
+     - Detect the newly downloaded graphic.
+     - Update `image:` in the front matter to match the image filename.
+
 ### `new` Command (List Draft Posts)
 When using the `new` command, show all draft posts in this format:
 

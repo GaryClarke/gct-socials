@@ -18,6 +18,7 @@ This file establishes consistent commands, workflows, and patterns for working w
      - `php/timothy`
      - `php/php-framework-pro`
      - `php/php-api-pro`
+     - `php/mysql`
   2. Create the lesson folder inside the chosen course folder (if it doesn’t exist).
   3. Gary pastes the legacy content into the folder (usually as provided or noted).
   4. Convert the pasted content into a `social-post.md` with current front‑matter standards and tone.

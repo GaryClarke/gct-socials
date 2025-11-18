@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: nil
-status: drafted
+status: posted
 tone: educational
 image: GoZeroValueVsNil.png
 synced: false
+posted: 2025-11-23
 ---
 
 In Go, uninitialized strings get an empty string. Uninitialized string pointers get nil. That difference trips up a lot of beginners, but it's actually pretty logical once you see it.

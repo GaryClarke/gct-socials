@@ -4,10 +4,11 @@ platform: both
 category: php
 project: mysql
 topic: one-to-many
-status: drafted
+status: posted
 tone: educational
 image: one-to-many.png
 synced: true
+posted: 2025-11-25
 ---
 
 In MySQL for PHP Developers I show you how to mirror real-world relationships directly inside your schema.

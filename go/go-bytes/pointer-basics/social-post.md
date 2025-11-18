@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: pointer-basics
-status: drafted
+status: posted
 tone: educational
 image: GoPointerBasics.png
 synced: false
+posted: 2025-11-26
 scheduling: Video scheduled for November 19, 2025 at 9:00 AM
 ---
 

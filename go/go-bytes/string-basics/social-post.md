@@ -8,7 +8,7 @@ status: posted
 tone: educational
 image: GoRawStrings.png
 synced: false
-posted: 2025-11-20
+posted: 2025-11-21
 scheduling: Video scheduled for November 18, 2025 at 9:00 AM
 ---
 

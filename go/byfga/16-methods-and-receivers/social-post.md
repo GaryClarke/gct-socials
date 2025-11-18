@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: methods-and-receivers
-status: drafted
+status: posted
 tone: educational
 image: MethodsShareAppState.png
 synced: false
+posted: 2025-11-21
 ---
 
 Handler methods beat free functions when you need shared state. Turn listBooks into a method on App and the handler can reach the database connection without juggling parameters. Pointer receivers keep you on the exact App instance the server booted, so you can add more dependencies without rewiring every call. Registering app.listBooksHandler still fits the mux signature, which keeps routing clean. From my Build Your First Go App course...follow for updates

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: zero-values
-status: drafted
+status: posted
 tone: educational
 image: GoZeroValues.png
 synced: false
+posted: 2025-11-24
 ---
 
 In Go, every variable gets a value, even if you don't assign one. Uninitialized ints get 0, strings get empty string, bools get false. This predictable behavior means you can always rely on variables having a known state.

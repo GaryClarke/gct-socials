@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: math-operators
-status: drafted
+status: posted
 tone: educational
 image: DivisionInGo.png
 synced: false
+posted: 2025-11-19
 scheduling: Video scheduled for November 17, 2025 at 9:00 AM
 ---
 

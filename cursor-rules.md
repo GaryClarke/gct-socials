@@ -547,6 +547,90 @@ Find all Timothy blog posts that are drafted
 - Twitter: 9:00 AM GMT (morning engagement)
 - Facebook: 1:00 PM GMT (lunch break)
 
+### Git Workflow Commands for Jacko
+
+**IMPORTANT: Always use these commands to sync your work with GitHub**
+
+Since you and Gary are both working on this repo, you need to sync your changes regularly. Use these simple commands:
+
+**`start` Command - Use when you begin working:**
+```
+start
+```
+This command:
+1. Checks if there are any uncommitted changes
+2. If yes: Saves any work (`git add .` and `git commit -m "Jacko: Save work"`)
+3. Pulls the latest changes from GitHub (`git pull origin main --no-rebase`)
+4. Gets you up to date and ready to work
+
+**When to use:**
+- At the beginning of each work session
+- Before making any changes
+- When you haven't worked in a while
+
+**Implementation:**
+When Jacko types `start`, perform these steps with clear messaging:
+1. **Tell Jacko what you're doing:** "Checking for any work you've done..."
+2. Check for uncommitted changes (`git status --short`)
+3. If changes exist: 
+   - **Tell Jacko:** "I found some changes. Checking what you've updated..."
+   - Check which files changed (look for social-post.md files with status/posted date updates)
+   - If post updates found: **Tell Jacko:** "I can see you've updated post statuses/dates. Saving those updates..."
+   - **Tell Jacko:** "Saving your work..."
+   - `git add .` 
+   - `git commit -m "Jacko: Save work"`
+   - **Tell Jacko:** "✓ Your work has been saved! All your post updates are now saved."
+4. If no changes: **Tell Jacko:** "No changes to save, that's fine!"
+5. **Tell Jacko:** "Getting the latest changes from GitHub..."
+6. Always: `git pull origin main --no-rebase`
+7. If pull fails: **Tell Jacko:** "❌ There was a problem getting the latest changes. Could you let Gary know? The error was: [show error]"
+8. If pull successful: **Tell Jacko:** "✓ All done! You're now up to date with the latest changes from GitHub. Ready to work!"
+
+**`finish` Command - Use when you're done working:**
+```
+finish
+```
+This command:
+1. Saves any work you've done (`git add .` and `git commit`)
+2. Pulls the latest changes from GitHub (`git pull`)
+3. Pushes your work to GitHub (`git push`)
+
+**When to use:**
+- At the end of each work session
+- After updating post statuses
+- Before closing your computer
+
+**Implementation:**
+When Jacko types `finish`, perform these steps with clear messaging:
+1. **Tell Jacko what you're doing:** "Checking for any work you've done..."
+2. Check for uncommitted changes (`git status --short`)
+3. If changes exist: 
+   - **Tell Jacko:** "I found some changes. Checking what you've updated..."
+   - Check which files changed (look for social-post.md files with status/posted date updates)
+   - If post updates found: **Tell Jacko:** "I can see you've updated post statuses/dates. Saving those updates..."
+   - **Tell Jacko:** "Saving your work..."
+   - `git add .` 
+   - `git commit -m "Jacko: Save work"`
+   - **Tell Jacko:** "✓ Your work has been saved! All your post updates are now saved."
+4. If no changes: **Tell Jacko:** "No changes to save, that's fine!"
+5. **Tell Jacko:** "Getting the latest changes from GitHub..."
+6. Always: `git pull origin main --no-rebase`
+7. If pull has conflicts: 
+   - **Tell Jacko:** "❌ There are conflicts with changes on GitHub. Could you let Gary know? I won't push your work until this is sorted."
+   - Don't push
+8. If pull successful: **Tell Jacko:** "✓ Got the latest changes!"
+9. **Tell Jacko:** "Uploading your work to GitHub..."
+10. `git push origin main`
+11. If push fails: **Tell Jacko:** "❌ There was a problem uploading. Could you let Gary know? The error was: [show error]"
+12. If successful: **Tell Jacko:** "✓ All done! Your work has been saved and uploaded to GitHub. You're all set!"
+
+**Simple workflow:**
+1. **Start of day:** Type `start` - gets latest changes from GitHub
+2. **Work on posts:** Update statuses, make changes
+3. **End of day:** Type `finish` - saves and uploads your work
+
+**No need to remember git commands - just use `start` and `finish`!**
+
 ### Updating After Posting
 
 **Command format:**

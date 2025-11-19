@@ -133,6 +133,19 @@ Gary has these useful git aliases configured:
 - Type `gs` anytime to quickly check if there are uncommitted changes
 - Helpful before starting new work to ensure you have a clean working tree
 
+### `update` Command (Commit and Pull Latest)
+
+When Gary uses `update`, perform these steps:
+1. Check for uncommitted changes (`git status --short`)
+2. If changes exist: `git add .` then `git commit -m "Update work"`
+3. Always: `git pull origin main --no-rebase`
+4. Confirms when complete: "✓ Up to date! Latest changes pulled from GitHub"
+
+**Usage:**
+- Quick way to save any work and get latest changes
+- Useful when you want to sync but not push yet
+- Similar to Jacko's `start` but without the extra messaging (Gary knows git)
+
 ## 🎯 Core Workflows
 
 ### 1. Import Social Posts from Google Drive

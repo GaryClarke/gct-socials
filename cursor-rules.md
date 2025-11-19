@@ -146,6 +146,27 @@ When Gary uses `update`, perform these steps:
 - Useful when you want to sync but not push yet
 - Similar to Jacko's `start` but without the extra messaging (Gary knows git)
 
+### `pin` Command (Show Today's Post with Pinned Comment)
+
+When Gary uses `pin`, perform these steps:
+1. Get today's date in format `YYYY-MM-DD`
+2. Find all posts with `posted: [today's date]`
+3. For each post found, display:
+   - Post ID and topic
+   - Full post content (LinkedIn and Twitter versions)
+   - The comment section (pinned comment) with YouTube/GitHub links
+4. Format the output clearly so it's easy to copy:
+   - LinkedIn post content
+   - Separator
+   - Twitter post content
+   - Separator
+   - Pinned comment section
+
+**Usage:**
+- Quick way to see what's being posted today
+- Get the pinned comment ready to drop into Twitter and LinkedIn
+- Shows both LinkedIn and Twitter versions plus the comment section
+
 ## 🎯 Core Workflows
 
 ### 1. Import Social Posts from Google Drive

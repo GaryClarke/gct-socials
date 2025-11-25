@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: floats
-status: drafted
+status: posted
 tone: educational
 image: FloatPrecision.png
 synced: false
 scheduling: Video scheduled for November 24, 2025 at 9:00 AM
+posted: 2025-11-26
 ---
 
 Go gives you two float types, and the precision difference matters. Float32 stores about 7 decimal digits, while float64 stores about 15. That extra precision prevents rounding errors in calculations.

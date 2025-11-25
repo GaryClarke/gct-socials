@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: blank-identifier
-status: drafted
+status: posted
 tone: educational
 image: BlankIdentifiers.png
 synced: false
+posted: 2025-11-27
 ---
 
 In Go, if you declare a variable and don't use it, the compiler throws an error. That's Go being helpful... but sometimes you genuinely don't need a value.

@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: multiple-return-values
-status: drafted
+status: posted
 tone: educational
 image: ReturningMultiple.png
 synced: false
 scheduling: Nov 27, 2025 at 9am
+posted: 2025-11-28
 ---
 
 Go functions can return multiple values. It's built into the language and shows up everywhere in Go code.

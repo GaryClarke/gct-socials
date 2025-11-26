@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: type-conversion
-status: drafted
+status: posted
 tone: educational
 image: GoTypeConversion.png
 synced: false
+posted: 2025-11-30
 ---
 
 Go won't automatically convert types for you, and that's actually helpful. It prevents bugs from hidden type changes. The syntax is simple: TypeName(value). Convert ints to floats, floats to ints, strings to bytes.

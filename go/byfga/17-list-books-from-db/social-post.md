@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: scanning-database-rows
-status: drafted
+status: posted
 tone: educational
 image: ScanningIntoStructs.png
 synced: false
+posted: 2025-11-29
 ---
 
 When querying databases in Go, use rows.Next() to loop through rows, then rows.Scan() to read them into structs.

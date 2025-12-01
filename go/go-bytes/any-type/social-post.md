@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: any-type
-status: drafted
+status: posted
 tone: educational
 image: GoAnyType.png
 synced: false
 scheduling: Dec 2, 2025 at 9am
+posted: 2025-12-02
 ---
 
 Go is a statically typed language, which means every variable has a clear and specific type. Most of the time this is exactly what you want, because it helps catch mistakes early and makes code easier to understand.

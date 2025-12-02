@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: string-formatting
-status: drafted
+status: posted
 tone: educational
 image: StringFormatting.png
 synced: false
+posted: 2025-12-03
 ---
 
 Go gives you three ways to format strings, and each has its place. fmt.Println is simple, fmt.Printf gives you control with format verbs, and fmt.Sprintf builds strings you can use elsewhere.

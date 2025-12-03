@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: understanding-packages
-status: drafted
+status: posted
 tone: educational
 image: PackagesUppercase.png
 synced: false
 scheduling: Your video will be set to public on December 4, 2025 at 9:00 AM
+posted: 2025-12-04
 ---
 
 Go packages use uppercase and lowercase names to control what's accessible. Functions that start with an uppercase letter are exported and can be used from other packages. Functions that start with lowercase are private to the package.

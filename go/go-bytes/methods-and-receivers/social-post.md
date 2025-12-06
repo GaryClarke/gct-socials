@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: methods-and-receivers
-status: drafted
+status: posted
 tone: educational
 image: MethodsAndReceivers.png
 synced: false
 scheduling: Video scheduled for December 3, 2025 at 9:00 AM
+posted: 2025-12-05
 ---
 
 Methods in Go let you attach functions to types. The receiver is the part in parentheses before the function name. It tells Go which type owns the method.

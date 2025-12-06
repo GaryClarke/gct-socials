@@ -4,10 +4,11 @@ platform: both
 category: php
 project: php-api-pro
 topic: http-cache-route-middleware
-status: drafted
+status: posted
 tone: educational
 image: HttpCacheRouteMiddleware.png
 synced: true
+posted: 2025-12-12
 ---
 
 Here's some code which combines a couple of techniques: route middleware and HTTP caching 🚀

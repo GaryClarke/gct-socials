@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: basic-errors
-status: drafted
+status: posted
 tone: educational
 image: BasicErrors.png
 synced: false
+posted: 2025-12-07
 ---
 
 Go does not use exceptions for error handling. Instead, errors are ordinary values that you create, return, and check just like anything else. This style keeps control flow simple and makes it easy to see what your code is doing.

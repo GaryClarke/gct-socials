@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: testing-handlers
-status: drafted
+status: posted
 tone: educational
 image: TestRequestResponse.png
 synced: false
+posted: 2025-12-11
 ---
 
 The httptest package lets you test HTTP handlers without starting a real server. httptest.NewRequest() creates fake HTTP requests, and httptest.NewRecorder() captures everything your handler writes: status codes, headers, and response body.

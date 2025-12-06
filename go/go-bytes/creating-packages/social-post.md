@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: creating-packages
-status: drafted
+status: posted
 tone: educational
 image: creating-packages.png
 synced: true
+posted: 2025-12-06
 ---
 
 Creating your own Go packages is straightforward. Create a folder, add a package declaration, write your exported functions, then import and use them in main.go.

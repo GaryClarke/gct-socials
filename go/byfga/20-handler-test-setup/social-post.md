@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: test-cleanup
-status: drafted
+status: posted
 tone: educational
 image: t.Cleanup.png
 synced: false
+posted: 2025-12-10
 ---
 
 When setting up test resources like database connections, use t.Cleanup() instead of defer.

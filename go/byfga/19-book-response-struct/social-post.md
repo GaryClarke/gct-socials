@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: wrapping-array-responses-in-objects
-status: drafted
+status: posted
 tone: educational
 image: ResponseStructs.png
 synced: false
+posted: 2025-12-09
 ---
 
 When building APIs, returning raw arrays from collection endpoints works... until you need to add pagination, totals, or metadata. Then you're stuck.

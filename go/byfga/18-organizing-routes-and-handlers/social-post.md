@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: organizing-routes-handlers
-status: drafted
+status: posted
 tone: educational
 image: OrganizingRoutes.png
 synced: false
+posted: 2025-12-08
 ---
 
 Keeping all your routes in main.go works fine when you're starting out... but it gets messy fast.

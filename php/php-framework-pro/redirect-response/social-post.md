@@ -4,10 +4,11 @@ platform: both
 category: php
 project: php-framework-pro
 topic: redirect-response
-status: drafted
+status: posted
 tone: educational
 image: RedirectResponse.png
 synced: true
+posted: 2025-12-12
 ---
 
 This simple RedirectResponse class will redirect a user after a certain action 🔀

@@ -8,6 +8,7 @@ status: drafted
 tone: educational
 image: WhileWithFor.png
 synced: false
+scheduled: December 15, 2025 at 9:00AM
 ---
 
 Go does not have a while keyword. Instead, for handles all looping patterns, including while-style loops. A while-style loop runs as long as a condition is true, and Go expresses this with a for loop that contains only a condition. This keeps the language simple and consistent while still allowing all the patterns you are used to.

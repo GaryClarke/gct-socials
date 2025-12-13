@@ -1,5 +1,5 @@
 ---
-id: 
+id: 52
 platform: both
 category: go
 project: go-bytes

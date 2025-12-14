@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: introduction-to-go-get
-status: drafted
+status: posted
 tone: educational
 image: GoGet.png
 synced: false
 scheduled: December 16, 2025 at 9:00 AM
+posted: 2025-12-16
 ---
 
 When you build Go programs, you will often want to use code written by other developers. This might be a library that generates unique IDs, sends HTTP requests, handles colours in the terminal, or anything else you might need.

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: custom-error-types
-status: drafted
+status: posted
 tone: educational
 image: CustomErrorTypes.png
 synced: false
+posted: 2025-12-18
 ---
 
 In Go, an error is not just a string. It is an interface that any type can satisfy. This opens the door to richer error handling. You can create custom error types that carry extra information beyond a simple string message.

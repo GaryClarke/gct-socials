@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: pointer-receivers
-status: drafted
+status: posted
 tone: educational
 image: PointerReceivers.png
 synced: false
+posted: 2025-12-19
 ---
 
 Go methods can use value receivers or pointer receivers. A value receiver gives the method a copy of the value, while a pointer receiver gives the method access to the original value.

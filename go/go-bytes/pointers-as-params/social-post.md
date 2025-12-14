@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: pointers-as-params
-status: drafted
+status: posted
 tone: educational
 image: PointersAsParams.png
 scheduling: Your video will be set to public on December 11, 2025 at 9:00 AM
 synced: false
+posted: 2025-12-14
 ---
 
 In Go, everything you pass to a function is passed by value. This means the function receives a copy of the data, not the original. Most of the time this is fine, but sometimes you want the function to modify the original value. To do that, you need to pass a pointer.

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: defer
-status: drafted
+status: posted
 tone: educational
 image: defer.png
 synced: false
+posted: 2025-12-17
 ---
 
 Go's defer keyword lets you schedule a function call to run when the surrounding function completes. This is especially useful for cleanup tasks like closing files, releasing resources, or printing final messages.

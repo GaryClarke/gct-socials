@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: store-methods
-status: drafted
+status: posted
 tone: educational
 image: GoStores.png
 synced: false
+posted: 2025-12-20
 ---
 
 Turning database functions into methods on store structs is one of those small changes that makes a big difference. Instead of passing the database connection as a parameter to every function, you wrap it in a struct and let methods access it through the receiver. The code gets cleaner, and it's immediately obvious which operations belong to which store.

@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: maps-reference-semantics
-status: drafted
+status: posted
 tone: educational
 image: PassingMapsToFunctions.png
 synced: false
 scheduling: Scheduled December 22, 2025 at 9:00 AM
+posted: 2025-12-22
 ---
 
 Go maps can catch you out when you pass one into a function.

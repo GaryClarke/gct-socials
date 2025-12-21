@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: strings-package
-status: drafted
+status: posted
 tone: educational
 image: GoStringsPackage.png
 synced: true
+posted: 2025-12-23
 ---
 
 Go's strings package provides useful functions you'll use a lot when working with text. Functions like strings.Contains, strings.HasPrefix, and strings.HasSuffix return booleans, making them perfect for validation checks like checking if an email contains an @ symbol or if a filename ends with .txt.

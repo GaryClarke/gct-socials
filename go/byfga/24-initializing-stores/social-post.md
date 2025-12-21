@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: constructor-functions
-status: drafted
+status: posted
 tone: educational
 image: GoConstructorFunctions.png
 synced: false
+posted: 2025-12-21
 ---
 
 Constructor functions in Go follow a simple pattern: functions that start with New return configured instances of a type. Instead of manually creating structs and setting fields everywhere, you centralize the setup logic in one place. This keeps initialization consistent and makes it easy to see how dependencies are wired together.

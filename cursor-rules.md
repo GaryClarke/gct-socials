@@ -526,8 +526,9 @@ Check out this cool blog by Timothy on [topic]
 
 **To find unposted content:**
 ```
-Find posts with status "drafted" that haven't been posted recently
+Find posts that don't have a posted date field
 ```
+**IMPORTANT:** Draft posts are identified by the absence of a `posted: YYYY-MM-DD` field, not just by `status: drafted`. Always search for posts without a `posted:` date field.
 
 **To find content by topic:**
 ```
@@ -545,6 +546,11 @@ Find all Timothy blog posts that are drafted
 - `drafted` - Ready to post
 - `scheduled` - Planned for specific date
 - `posted` - Already published
+
+**IMPORTANT: Identifying Draft Posts:**
+- **The most reliable way to find draft posts is to look for posts WITHOUT a `posted: YYYY-MM-DD` field**
+- A post without a `posted:` date field is a draft, regardless of what the `status:` field says
+- Always search for posts missing the `posted:` date field when looking for content to post
 
 **Each post has an ID number** (like 1, 2, 3, 4) for easy reference.
 
@@ -695,7 +701,13 @@ posted 4 291025
 
 ### `new` Command - View Unposted Content
 
-Type `new` to see all content ready to post (status: drafted).
+Type `new` to see all content ready to post.
+
+**CRITICAL: How to identify draft posts:**
+- **Draft posts are identified by the ABSENCE of a `posted:` date field**, NOT just by `status: drafted`
+- A post without a `posted: YYYY-MM-DD` field is a draft, regardless of its status field
+- Always search for posts that do NOT have a `posted:` date field with a valid date
+- This is the most reliable way to find unposted content
 
 **What it shows:**
 - **Post ID** - For use with the `posted` command

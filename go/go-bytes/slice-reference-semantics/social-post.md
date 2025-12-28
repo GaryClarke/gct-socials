@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: slice-reference-semantics
-status: drafted
+status: posted
 tone: educational
 image: SlicesShareData.png
 synced: false
 scheduling: December 24, 2025 at 9:00 AM
+posted: 2025-12-27
 ---
 
 Go slices can catch you out when you assign one to another variable.

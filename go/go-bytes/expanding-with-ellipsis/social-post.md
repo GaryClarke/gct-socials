@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: expanding-with-ellipsis
-status: drafted
+status: posted
 tone: educational
 image: GoSliceExpansion.png
 synced: false
 scheduling: Scheduled January 6, 2025 at 9:00 AM
+posted: 2026-01-06
 ---
 
 When you have a slice and need to pass its elements into a variadic function, you cannot pass the slice directly. Go treats it as a single value, which causes a compile error.

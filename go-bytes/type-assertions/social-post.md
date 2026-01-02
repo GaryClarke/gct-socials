@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: type-assertions
-status: drafted
+status: posted
 tone: educational
 image: GoTypeAssertions.png
 synced: false
+posted: 2026-01-07
 ---
 
 Sometimes you have a value and you need to check what type it actually is. In Go, you can do this with type assertions. A type assertion lets you check if a value is a specific type and extract it if it is.

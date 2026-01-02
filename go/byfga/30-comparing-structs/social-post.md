@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: struct-comparison
-status: drafted
+status: posted
 tone: educational
 image: GoStructComparison.png
 synced: false
+posted: 2026-01-05
 ---
 
 When testing in Go, you can compare entire structs using the == operator instead of checking each field individually. Create an expected struct with the values you want, then compare: if book != expected { t.Errorf("want %#v; got %#v", expected, book) }. The %#v format verb shows the full struct representation, making it easy to spot differences when tests fail.

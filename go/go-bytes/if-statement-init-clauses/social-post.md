@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: if-statement-init-clauses
-status: drafted
+status: posted
 tone: educational
 image: IfStatementInitClauses.png
 synced: false
+posted: 2026-01-04
 ---
 
 In Go, an if statement can do more than just check a condition. It can also include an initialization statement that runs before the condition is checked. This lets you declare a variable and use it in the condition all in one line.

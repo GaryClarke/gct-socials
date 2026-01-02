@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: test-recorder-inspection
-status: drafted
+status: posted
 tone: educational
 image: GoTestRecorder.png
 synced: false
+posted: 2026-01-03
 ---
 
 When testing HTTP handlers in Go, httptest.NewRecorder() captures everything your handler writes. After invoking the handler, you check rr.Code to verify the status code and decode rr.Body to inspect the response data. It's all captured in memory, ready to assert on.

@@ -6,7 +6,7 @@ project: first-go-app
 topic: input-structs
 status: drafted
 tone: educational
-image: 
+image: GoJSONStructTags.png
 synced: false
 ---
 

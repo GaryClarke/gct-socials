@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: input-validation
-status: drafted
+status: posted
 tone: educational
 image: GoInputValidation.png
 synced: false
+posted: 2026-01-13
 ---
 
 When validating user input in Go, you can use a map[string]string to collect field-specific errors. Create an empty map, then check each field and add error messages when validation fails. The map keys are field names, and values are error messages.

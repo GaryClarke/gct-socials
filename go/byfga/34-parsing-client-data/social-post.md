@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: http-status-text
-status: drafted
+status: posted
 tone: educational
 image: GoHTTPStatusText.png
 synced: false
+posted: 2026-01-12
 ---
 
 When handling errors in Go HTTP handlers, you can use http.StatusText() to get the standard status message for any HTTP status code. Instead of hardcoding "Bad Request" or "Internal Server Error", you call http.StatusText(http.StatusBadRequest) and get the correct message automatically.

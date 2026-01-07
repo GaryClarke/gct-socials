@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: writing-to-files
-status: drafted
+status: posted
 tone: educational
 image: WritingToFiles.png
 synced: false
+posted: 2026-01-09
 ---
 
 The os package in Go lets you create and write to files. Use os.Create to create a file, handle any errors, then use WriteString to add content. Always close files with defer so resources are released properly, even if something goes wrong.

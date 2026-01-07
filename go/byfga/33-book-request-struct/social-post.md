@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: input-structs
-status: drafted
+status: posted
 tone: educational
 image: GoJSONStructTags.png
 synced: false
+posted: 2026-01-08
 ---
 
 When decoding JSON into Go structs, use struct tags to map JSON field names to your struct fields. The json:"title" tag tells Go's JSON decoder to look for a field named "title" in the incoming JSON and assign its value to your Title struct field.

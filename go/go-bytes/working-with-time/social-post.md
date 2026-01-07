@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: working-with-time
-status: drafted
+status: posted
 tone: educational
 image: GoFormattingDates.png
 synced: false
+posted: 2026-01-10
 ---
 
 Go's time formatting uses a unique system. Instead of format strings like %Y or yyyy, you use a fixed reference date as your layout pattern: Mon Jan 2 15:04:05 MST 2006, or more simply 2006-01-02 15:04:05.

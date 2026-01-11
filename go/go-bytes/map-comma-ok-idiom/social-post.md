@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: map-comma-ok-idiom
-status: drafted
+status: posted
 tone: educational
 image: GoMapOK.png
 synced: false
+posted: 2026-01-14
 ---
 
 When you look up a key in a Go map, it always returns a value, even if the key doesn't exist. Missing keys return the zero value for the type, which can be misleading since zero values are valid values in maps.

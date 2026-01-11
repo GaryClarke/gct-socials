@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: strings-to-numbers
-status: drafted
+status: posted
 tone: educational
 image: ConvertingStringsToNumbers.png
 synced: false
+posted: 2026-01-15
 ---
 
 The strconv package converts between strings and numbers in Go. Use strconv.Atoi (ASCII to integer) to convert a string to an integer. It returns the converted number and an error that you must check, since string to number conversions can fail if the input is invalid.

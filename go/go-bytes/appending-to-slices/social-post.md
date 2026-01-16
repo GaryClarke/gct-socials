@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: appending-to-slices
-status: drafted
+status: posted
 tone: educational
 image: AppendingToSlices.png
 synced: false
+posted: 2026-01-18
 ---
 
 In Go, you cannot assign a value to a slice index that does not exist. If you have a slice with 3 elements, you cannot do numbers[3] = 4 because that index is out of bounds. This is where append comes in.

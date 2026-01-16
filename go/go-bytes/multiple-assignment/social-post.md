@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: multiple-assignment
-status: drafted
+status: posted
 tone: educational
 image: GoMultipleAssignment.png
 synced: true
+posted: 2026-01-16
 ---
 
 Go lets you swap two values in a single line without a temporary variable. Multiple assignment evaluates all right-hand expressions first, then assigns them to the left side. This makes operations like swapping safe and straightforward.

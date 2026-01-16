@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: runes-bytes-strings
-status: drafted
+status: posted
 tone: educational
 image: GoBytesAndRunes.png
 synced: false
+posted: 2026-01-17
 ---
 
 In Go, strings are sequences of bytes, not characters. When you call len() on a string, it returns the number of bytes, which can be different from the character count. Unicode characters like é can take multiple bytes in UTF-8 encoding, so a string with 4 characters might have 5 bytes.

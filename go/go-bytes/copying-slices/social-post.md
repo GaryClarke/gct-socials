@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: copying-slices
-status: drafted
+status: posted
 tone: educational
 image: CopyingSlices.png
 synced: false
+posted: 2026-01-19
 ---
 
 In Go, assigning a slice to another variable does not create a copy. Both variables point to the same backing array, so changes to one affect the other. This can lead to unexpected bugs when you think you are working with independent data.

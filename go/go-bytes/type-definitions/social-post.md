@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: type-definitions
-status: drafted
+status: posted
 tone: educational
 image: TypeDefinitions.png
 synced: false
 scheduling: Video scheduled for 21st Jan 2026 at 9am
+posted: 2026-01-21
 ---
 
 Type definitions in Go let you create new types from existing ones. They do more than just rename things. They add type safety.

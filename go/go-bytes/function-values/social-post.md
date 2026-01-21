@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: function-values
-status: drafted
+status: posted
 tone: educational
 image: FunctionsAsValues.png
 synced: false
+posted: 2026-01-23
 ---
 
 In Go, functions are values just like numbers or strings. You can assign them to variables and call them through those variables.

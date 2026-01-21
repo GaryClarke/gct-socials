@@ -4,11 +4,12 @@ platform: both
 category: go
 project: go-bytes
 topic: anonymous-functions
-status: drafted
+status: posted
 tone: educational
 image: AnonymousFunctions.png
 synced: false
 scheduling: Video will be set to public on January 23, 2026 at 9:00 AM
+posted: 2026-01-25
 ---
 
 In Go, functions do not always need a name. You can create functions inline and use them directly. These are called anonymous functions or function literals.

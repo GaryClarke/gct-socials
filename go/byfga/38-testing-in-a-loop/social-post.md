@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: table-driven-tests-subtests
-status: drafted
+status: posted
 tone: educational
 image: GoSubtests.png
 synced: false
+posted: 2026-01-22
 ---
 
 Table-driven tests are a Go testing pattern that lets you test multiple scenarios efficiently. But defining test cases is only half the story... you need to loop over them and run each one.

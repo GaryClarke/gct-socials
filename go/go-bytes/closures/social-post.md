@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: closures
-status: drafted
+status: posted
 tone: educational
 image: Closures.png
 synced: false
+posted: 2026-01-26
 ---
 
 A closure is the combination of a variable and a function that captures it. The function keeps a reference to the variable, so each call can read or update it. Call the function twice and you get 1, then 2: the same variable, remembered between calls.

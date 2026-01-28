@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: transforming-request-data
-status: drafted
+status: posted
 tone: educational
 image: TransformingRequestData.png
 synced: false
+posted: 2026-01-30
 ---
 
 Separating request structs from domain models is one of those patterns that makes your code way more maintainable. When you receive JSON from a client, you decode it into a request struct. After validation passes, you transform that request data into your domain model by mapping fields explicitly. This keeps your domain models clean and your request handling separate.

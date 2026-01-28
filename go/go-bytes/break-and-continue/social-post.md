@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: break-and-continue
-status: drafted
+status: posted
 tone: educational
 image: BreakAndContinue.png
 synced: false
+posted: 2026-01-29
 ---
 
 Break and continue give you more control over loops in Go. Break stops the loop completely. Continue skips the rest of the current iteration and moves on to the next one.

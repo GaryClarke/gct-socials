@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: writer-interface
-status: draft
+status: posted
 tone: educational
 image: ioWriterInterface.png
 synced: true
+posted: 2026-02-02
 ---
 
 In Go, you can write the same function once and use it with files, network connections, HTTP responses, and even the terminal. The secret is io.Writer.

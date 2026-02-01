@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: database-inserts
-status: drafted
+status: posted
 tone: educational
 image: ExecContextLastInsertId.png
 synced: false
+posted: 2026-02-03
 ---
 
 When you insert a row in Go and need to return the new ID in the response (so the client knows what was created), you run the INSERT with ExecContext, then call LastInsertId() on the Result. That gives you the ID the database generated. Set it on your struct and return it so your handler can send the full resource back with a 201.

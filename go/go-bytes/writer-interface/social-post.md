@@ -1,9 +1,14 @@
 ---
-synced: false
+id: 135
+platform: both
+category: go
+project: go-bytes
+topic: writer-interface
+status: draft
+tone: educational
 image: ioWriterInterface.png
+synced: true
 ---
-
-## LinkedIn
 
 In Go, you can write the same function once and use it with files, network connections, HTTP responses, and even the terminal. The secret is io.Writer.
 
@@ -11,13 +16,11 @@ The io.Writer interface describes what something can do, not what it is. If a ty
 
 This is interface-based design in action. Your code depends on behaviour, not concrete types. Write once, use everywhere.
 
-Follow me for more Go bytes.
+Follow me for more Go bytes
 
-#golang #goprogramming #softwaredevelopment #coding #interfaces
+#golang #golangtips #goprogramming #coding #softwaredevelopment
 
----
-
-## Twitter
+============ Tweet =============
 
 In Go, one function can write to files, stdout, HTTP responses... anywhere. The secret is io.Writer.
 
@@ -25,11 +28,9 @@ If a type can write bytes, it implements io.Writer. Accept io.Writer, and it wor
 
 Interface design: depend on behaviour, not types.
 
-Follow me for more Go bytes.
+Follow me for more Go bytes
 
----
-
-## Comment Section
+============ Comment to pin =============
 
 Vid lesson: https://youtube.com/watch?v=qvFDJcakc7E
 Lesson / code on Github: https://github.com/GaryClarke/go-bytes/tree/main/writer-interface

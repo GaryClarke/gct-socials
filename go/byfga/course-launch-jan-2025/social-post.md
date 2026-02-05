@@ -4,13 +4,15 @@ platform: both
 category: go
 project: first-go-app
 topic: course-launch
-status: drafted
+status: posted
 tone: announcement
 image: byfga-course-art.jpg
 synced: false
 scheduled: post_date_twitter, post_date_linkedin
 post_date_twitter: 2025-01-08
 post_date_linkedin: 2025-01-09
+posted_twitter: 2026-02-08
+posted_linkedin: 2026-02-09
 ---
 
 I've put together a course for anyone who's new to Go and wants to learn by building something real. Build Your First Go App walks you through building an app using idiomatic Go and common practices so you're not just copying code, you're understanding how and why.

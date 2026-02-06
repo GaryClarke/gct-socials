@@ -1,4 +1,5 @@
 ---
+id: 195
 platform: both
 category: go
 project: go-bytes
@@ -6,7 +7,7 @@ topic: goroutine-basics
 status: draft
 tone: educational
 image: GoroutineBasics.png
-synced: false
+synced: true
 ---
 
 Go makes concurrency simple. Add the go keyword before a function call, and it runs concurrently instead of blocking.

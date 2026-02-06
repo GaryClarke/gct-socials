@@ -62,11 +62,11 @@ When Gary uses `aac`, perform these steps:
 5. **Push to remote** - `git push` (only if remote exists)
 
 **ID Assignment Process:**
-- Read current ID from `.cursor/system-state.yml`
-- Assign that ID to any new posts
-- Increment `last_assigned_id` in `.cursor/system-state.yml`
-- Update `total_posts` count
-- Update `last_updated` date
+1. **Validate first** - Scan all `social-post.md` files (excluding templates) and find the actual highest `id:` value in the repo
+2. Read `last_assigned_id` from `.cursor/system-state.yml`
+3. **Use the greater of the two** - Next ID = max(actual_highest_in_repo, last_assigned_id) + 1. This prevents ID jumps if system-state gets out of sync
+4. Assign IDs sequentially to new posts
+5. Update `last_assigned_id`, `total_posts`, and `last_updated` in system-state.yml
 
 **Example workflow:**
 ```
@@ -109,7 +109,7 @@ Since both Gary and Jacko are working on this repo, always pull the latest chang
 **For the `aac` command:**
 ```
 1. Check for new post files
-2. If new posts found - Assign next available ID and update system state
+2. If new posts found - Validate actual highest ID in repo first, then assign next ID (never skip validation)
 3. Add all files - git add .
 4. Commit with message - git commit -m "Add new content"
 5. Pull latest changes - git pull origin main --no-rebase
@@ -457,33 +457,34 @@ scheduling: [free-form text]  # Optional: scheduling context (e.g., "Video sched
 - **Free-form text** - Use natural language to describe the scheduling context (e.g., "Video scheduled for November 13, 2025 at 9:00 AM on YouTube")
 
 ### ID Management System
-Simple sequential numbering system:
+Simple sequential numbering system with no gaps:
+
+**CRITICAL: Validate before assigning**
+- Before assigning any new ID, scan all `social-post.md` files in the repo and extract every `id: N` value
+- Find the actual highest ID in the repo
+- Next ID = max(actual_highest_in_repo, last_assigned_id_from_system_state) + 1
+- This prevents ID jumps when system-state.yml is out of sync (e.g. wrong values, merge issues)
 
 **When creating new content:**
-- Read current ID from `.cursor/system-state.yml`
-- Use the next sequential number
-- **AUTOMATICALLY increment the ID in `.cursor/system-state.yml`**
+- Validate: compute actual highest ID across all posts
+- Use next ID = actual_highest + 1 (never trust system-state alone if repo has higher IDs)
 - **AUTOMATICALLY update `.cursor/system-state.yml`**
 - No category restrictions - just increment from the last number
 
 **ID Assignment Process:**
-1. Read current ID from `.cursor/system-state.yml`
-2. Assign that ID to the new post
-3. **MANDATORY: Increment the `last_assigned_id` in `.cursor/system-state.yml`**
-4. **MANDATORY: Increment the `total_posts` in `.cursor/system-state.yml`**
-5. **MANDATORY: Update `last_updated` to current date in `.cursor/system-state.yml`**
-6. Update the "Current highest ID" in this file
-
-**CRITICAL RULE: Every time a post is created with an ID, these three values MUST be updated:**
-- `last_assigned_id` - Increment by 1
-- `total_posts` - Increment by 1  
-- `last_updated` - Set to current date
+1. **MANDATORY: Validate** - Grep all social-post.md files for `^id: [0-9]+`, find max value
+2. Read `last_assigned_id` from `.cursor/system-state.yml`
+3. Next ID = max(actual_max_from_repo, last_assigned_id) + 1
+4. Assign that ID (and subsequent IDs) to new posts
+5. **MANDATORY: Update `last_assigned_id`** to the highest ID you just assigned
+6. **MANDATORY: Update `total_posts`** (increment by number of new posts)
+7. **MANDATORY: Update `last_updated`** to current date
 
 **Finding next available ID:**
 ```
 Find next available ID
 ```
-This will read from `.cursor/system-state.yml` and suggest the next number.
+Scan all posts for the actual highest ID, then suggest max(actual_highest, system_state) + 1.
 
 **Example Timothy Blog Post Template:**
 ```

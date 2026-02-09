@@ -4,7 +4,8 @@ platform: both
 category: go
 project: first-go-app
 topic: testing-create-handlers
-status: drafted
+status: posted
+posted: 2026-02-11
 tone: educational
 image: SimulatingRequestBody.png
 synced: false

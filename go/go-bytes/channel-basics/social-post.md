@@ -4,7 +4,8 @@ platform: both
 category: go
 project: go-bytes
 topic: channel-basics
-status: draft
+status: posted
+posted: 2026-02-10
 tone: educational
 image: ChannelBasics.png
 synced: true

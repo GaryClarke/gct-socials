@@ -4,7 +4,8 @@ platform: both
 category: go
 project: go-bytes
 topic: reader-interface
-status: draft
+status: posted
+posted: 2026-02-12
 tone: educational
 image: GoIoReaderInterface.png
 synced: true

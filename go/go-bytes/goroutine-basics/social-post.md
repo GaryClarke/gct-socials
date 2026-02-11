@@ -4,7 +4,8 @@ platform: both
 category: go
 project: go-bytes
 topic: goroutine-basics
-status: draft
+status: posted
+posted: 2026-02-13
 tone: educational
 image: GoroutineBasics.png
 synced: true

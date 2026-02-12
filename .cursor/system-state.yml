@@ -1,9 +1,9 @@
 # System State
 # This file tracks system state for the social media content management
 
-last_assigned_id: 453
+last_assigned_id: 455
 last_updated: 2026-02-12
-total_posts: 349
+total_posts: 351
 
 # ID Management
 # - Each new post gets the next sequential ID

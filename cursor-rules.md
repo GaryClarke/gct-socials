@@ -626,7 +626,10 @@ When Jacko types `start`, perform these steps with clear messaging:
 5. **Tell Jacko:** "Getting the latest changes from GitHub..."
 6. Always: `git pull origin main --no-rebase`
 7. If pull fails: **Tell Jacko:** "❌ There was a problem getting the latest changes. Could you let Gary know? The error was: [show error]"
-8. If pull successful: **Tell Jacko:** "✓ All done! You're now up to date with the latest changes from GitHub. Ready to work!"
+8. If pull successful: **Tell Jacko:** "✓ Got the latest changes!"
+9. **Check for posts without IDs:** Find any social-post.md files that don't have `id: [number]` in the front matter
+10. If posts without IDs found: **Tell Jacko:** "⚠️ I found [X] post(s) without IDs: [list folder paths]. Let Gary know so he can run 'aac' to assign them."
+11. **Tell Jacko:** "✓ All done! You're now up to date. Ready to work!"
 
 **`finish` Command - Use when you're done working:**
 ```

@@ -4,7 +4,8 @@ platform: both
 category: go
 project: go-bytes
 topic: starting-a-server
-status: draft
+status: posted
+posted: 2026-02-14
 tone: educational
 image: StartingGoServer.png
 synced: false

@@ -4,7 +4,8 @@ platform: both
 category: go
 project: go-bytes
 topic: handlers-and-routes
-status: draft
+status: posted
+posted: 2026-02-16
 tone: educational
 image: HandlersAndRoutes.png
 synced: false

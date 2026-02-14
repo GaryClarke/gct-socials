@@ -4,7 +4,8 @@ platform: both
 category: go
 project: go-bytes
 topic: writing-responses
-status: draft
+status: posted
+posted: 2026-02-15
 tone: educational
 image: WritingResponses.png
 synced: false

@@ -8,7 +8,7 @@ status: posted
 tone: educational
 image: GoRouteParams.png
 synced: false
-posted: 2025-12-23
+posted: 2026-02-17
 ---
 
 Route params make your Go API flexible. Instead of hard-coding endpoints, you define a pattern like GET /books/{id} and let the router pull the id out of the URL for you.

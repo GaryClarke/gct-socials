@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: json-responses
-status: draft
+status: posted
 tone: educational
 image: httpError.png
 synced: false
+posted: 2026-02-22
 ---
 
 You will see http.Error in a lot of Go HTTP code. It is worth knowing what it does under the hood. It is not magic. It uses the same response writer you already have: it calls WriteHeader to send the status code, then writes the message as the response body. So the client gets a normal HTTP response with an error status and a plain text message. Once you see that it is just those two steps, error responses make sense.

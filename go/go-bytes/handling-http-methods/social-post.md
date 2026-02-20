@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: handling-http-methods
-status: draft
+status: posted
 tone: educational
 image: HTTPRequestMethods.png
 synced: false
+posted: 2026-02-18
 ---
 
 Every HTTP request includes a method. In Go, you access it from the request with r.Method. It returns a string like GET, POST, PUT, or DELETE. You can branch your handler logic based on that value and respond differently to each method.

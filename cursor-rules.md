@@ -529,7 +529,7 @@ Check out this cool blog by Timothy on [topic]
 ```
 Find posts that don't have a posted date field
 ```
-**IMPORTANT:** Draft posts are identified by the absence of a `posted: YYYY-MM-DD` field, not just by `status: drafted`. Always search for posts without a `posted:` date field.
+**IMPORTANT:** Draft posts are identified by the absence of a `posted: YYYY-MM-DD` field, not just by `status: drafted`. Always search for posts without a `posted:` date field. When searching by status, check for BOTH `status: drafted` AND `status: draft` (both variants exist in the repo).
 
 **To find content by topic:**
 ```
@@ -544,7 +544,7 @@ Find all Timothy blog posts that are drafted
 ### Understanding Post Status
 
 **Status meanings:**
-- `drafted` - Ready to post
+- `drafted` or `draft` - Ready to post (check both when searching)
 - `scheduled` - Planned for specific date
 - `posted` - Already published
 
@@ -609,6 +609,8 @@ This command:
 - At the beginning of each work session
 - Before making any changes
 - When you haven't worked in a while
+
+**Draft checks:** When checking for drafts (during start, or when Jacko asks "drafts" / "scheduled" / "new"), search for BOTH `status: drafted` AND `status: draft`—both variants exist in the repo.
 
 **Implementation:**
 When Jacko types `start`, perform these steps with clear messaging:
@@ -709,6 +711,7 @@ Type `new` to see all content ready to post.
 
 **CRITICAL: How to identify draft posts:**
 - **Draft posts are identified by the ABSENCE of a `posted:` date field**, NOT just by `status: drafted`
+- When searching by status, check for BOTH `status: drafted` AND `status: draft` (both variants exist in the repo)
 - A post without a `posted: YYYY-MM-DD` field is a draft, regardless of its status field
 - Always search for posts that do NOT have a `posted:` date field with a valid date
 - This is the most reliable way to find unposted content

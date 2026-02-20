@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: json-tags
-status: draft
+status: posted
 tone: educational
 image: OmitemptyTags.png
 synced: false
+posted: 2026-02-20
 ---
 
 JSON tags let you control how struct fields become JSON keys. Add omitempty and Go skips the field when it has its zero value. Without it, an empty string becomes "", a zero int becomes 0, and that might not be what you want. With omitempty, the field disappears from the output entirely.

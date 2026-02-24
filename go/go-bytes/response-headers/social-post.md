@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: response-headers
-status: draft
+status: posted
 tone: educational
 image: HeaderOrdering.png
 synced: false
+posted: 2025-02-24
 ---
 
 HTTP responses have headers, a status code, and a body. In Go, the order you write them matters. Set headers first with Header().Set, then call WriteHeader for the status, then write the body. WriteHeader sends the status and headers, so any header changes after that are ignored.

@@ -4,10 +4,11 @@ platform: both
 category: go
 project: first-go-app
 topic: course-release
-status: drafted
+status: posted
 tone: announcement
 image: byfga-course-art.jpg
 synced: false
+posted: 2026-02-27
 ---
 
 Build Your First Go App is for anyone new to Go who wants to learn by building something real. You build an API from scratch: handlers, routing, SQLite, validation, and tests. The course uses idiomatic Go and common patterns so you're not just copying code, you're understanding how and why.

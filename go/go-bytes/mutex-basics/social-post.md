@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: mutex-basics
-status: draft
+status: posted
 tone: educational
 image: GoMutex.png
 synced: false
+posted: 2026-03-24
 ---
 
 Several goroutines updating the same variable can race: reads and writes overlap and you get wrong totals. sync.Mutex fixes that. You declare the mutex, then only one goroutine at a time runs the bit between Lock and Unlock.

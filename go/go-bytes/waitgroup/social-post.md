@@ -4,10 +4,11 @@ platform: both
 category: go
 project: go-bytes
 topic: waitgroup
-status: draft
+status: posted
 tone: educational
 image: GoWaitgroups.png
 synced: false
+posted: 2026-03-25
 ---
 
 Goroutines run concurrently, but if main finishes first the program exits and the work stops. sync.WaitGroup fixes that. You call Add to say how many goroutines you are starting, each goroutine calls Done when it finishes, and Wait blocks until all of them are done.
